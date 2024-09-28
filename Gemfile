@@ -6,7 +6,7 @@ gem "rails", "~> 7.2.1"
 gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem "sqlite3", "~> 1.4"
+  gem "sqlite3", "~> 2.1"
 end
 group :production do
   gem "pg", "~> 1.5", ">= 1.5.6"
