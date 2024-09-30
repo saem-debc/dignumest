@@ -4,4 +4,5 @@
     <%= post.title %>
   </p>
 
+  <%= image_tag(post.image, style: "width: 300px; height: auto") if post.image.attached? %>
 </div>
